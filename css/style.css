@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital@0;1&family=Roboto:ital,wght@0,300;1,300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+ul li {
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+}
+
+ul li a {
+    color: orangered;
+}
+
+h1,
+h2,
+h3 {
+    margin: 25px;
+    text-align: center;
+    color: black;
+}
+
+p {
+    margin: 40px;
+    padding: 10px;
+    border: 5px solid orangered;
+    font-family: 'PT Serif', serif;
+}
+
+header {
+    background-image: url(../images/portada_paramore.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 20px;
+}
+
+nav {
+    position: relative;
+    bottom: 30px;
+    text-align: center;
+    font-size: 18px;
+    word-spacing: 5px;
+}
+
+article {
+    background-color: beige;
+    position: relative;
+}
+
+footer {
+    background-color: orange;
+}
+
+.parrafoPrincipal {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background-color: beige;
+}
+
+.portadaPrincipal {
+    background-color: beige;
+    width: 100%;
+}
+
+.linkCompra {
+    color: darkred;
+    text-align: center;
+}
+
+.cajaLista {
+    width: 100px;
+    height: 100px;
+}
+
+.cajaImagen {
+    width: 400px;
+    height: 400px;
+    position: relative;
+    left: 200px;
+    top: 120px;
+}
+
+.cajaListaOrdenada {
+    margin: 10px;
+}
+
+.cajaLateral {
+    position: relative;
+    left: 750px;
+    bottom: 250px;
+}
+
+.cajaGeneralProducto {
+    display: inline-block;
+    width: 350px;
+    height: 350px;
+    margin: 15px;
+    padding: 10px;
+}
+
+.cajaProducto {
+    display: inline-block;
+    width: 350px;
+    height: 350px;
+    margin: 15px;
+    padding: 10px;
+}
+
+.fondoProductos {
+    background-color: yellow;
+}
+
+.tituloProducto {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.masInfo {
+    position: relative;
+    top: 150px;
+    left: 250px;
+}
+
+.mapaPosicion {
+    position: relative;
+    bottom: 200px;
+    left: 50px;
+    margin: 0;
+    padding: 0;
+}
+
+.fondoHistoria {
+    background-image: url(../images/paramore_actual_fondo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: rgb(239, 243, 239);
+}
